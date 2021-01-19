@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wgustudent.SamuelCrumplerC196MobileApp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_newicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name=".classes.Broadcaster"
+            android:enabled="true"
+            android:exported="true"></receiver>
+        <activity
+            android:name=".send_note"
+            android:label="@string/title_activity_send_note"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Tracker"
+            android:label="@string/title_activity_tracker"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".view_courses"
+            android:label="@string/title_activity_view_courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mod_mentor"
+            android:label="@string/title_activity_mod_mentor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mod_term"
+            android:label="@string/title_activity_mod_term"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModAssessment"
+            android:label="@string/title_activity_mod_assessment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModCourse"
+            android:label="@string/title_activity_mod_course"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewStandardActivity"
+            android:label="@string/title_activity_view_course"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.wgustudent.SamuelCrumplerC196MobileApp.ViewStandardActivity">
+    <item
+        android:id="@+id/actHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+
+
+
+<item
+    android:id="@+id/actEdit"
+    android:orderInCategory="100"
+    android:title="@string/edit"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/actDel"
+    android:orderInCategory="100"
+    android:title="@string/delete"
+    app:showAsAction="never" />
+</menu>

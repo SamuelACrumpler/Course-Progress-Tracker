@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Progress Tracker</string>
+    <string name="btn_terms">Terms</string>
+    <string name="btn_courses">Courses</string>
+    <string name="btn_mentors">Mentors</string>
+    <string name="btn_assessments">Assessments</string>
+    <string name="btn_addassess">Add Assessments</string>
+    <string name="btn_addcourses">Add Courses</string>
+    <string name="btn_sendemail">Send E-Mail</string>
+    <string name="btn_progress">Progress Tracker</string>
+
+    <string name="tra_planned">Planned: 0</string>
+    <string name="tra_progress">In Progress: 0</string>
+    <string name="tra_completed">Completed: 0</string>
+    <string name="tra_dropped">Dropped: 0</string>
+
+    <string name="tra_taken">Not yet taken: 0</string>
+    <string name="tra_passed">Passed: 0</string>
+    <string name="tra_failed">Failed: 0</string>
+    <string name="tra_comprate">This is the rate of completion you are at right now: </string>
+
+    <string name="tra_upcourses">Upcoming Courses: </string>
+    <string name="tra_upassess">Upcoming Assessments: </string>
+    <string name="tra_upterm">Upcoming Terms: </string>
+
+
+
+    <string name="startalert">Start Date Alert</string>
+    <string name="endalert">End Date Alert</string>
+    <string name="addassess">Add Assessment</string>
+    <string name="addmentor">Add Mentor</string>
+    <string name="addterm">Add Term</string>
+    <string name="addcourse">Add Course</string>
+
+    <string name="email">E-Mail</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <string name="phone">Phone</string>
+    <string name="defStart">Start Date (Tap here to change)</string>
+    <string name="defEnd">End Date (Tap here to change)</string>
+    <string name="defGoal">Goal Date (Tap here to change)</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+    <string name="view">View</string>
+    <string name="remove">Remove</string>
+    <string name="sendnotes">Send Notes</string>
+    <string name="notes">Notes</string>
+    <string name="subject">Subject</string>
+    <string name="recipient">Recipient</string>
+
+    <string name="home">Home</string>
+
+    <string name="objective">Objective</string>
+    <string name="performance">Performance</string>
+    <string name="due">Due Date: (Tap here to change)</string>
+
+
+    <string name="title_activity_list">List View</string>
+    <string name="title_activity_courses">List View</string>
+    <string name="title_activity_view_course">Detailed View</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_modify_course">Current Course</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_mod_course">Current Course</string>
+    <string name="title_activity_mod_assessment">Current Assessment</string>
+    <string-array name="status_array">
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Plan To Take</item>
+    </string-array>
+    <string name="title_activity_mod_term">Current Term</string>
+    <string name="title_activity_mod_mentor">Current Mentor</string>
+    <string name="title_activity_view_courses">Detailed View</string>
+    <string name="title_activity_term_add_course">term_add_course</string>
+    <string name="title_activity_tracker">College Progress Tracker</string>
+    <string name="title_activity_send_note">Send Note</string>
+</resources>

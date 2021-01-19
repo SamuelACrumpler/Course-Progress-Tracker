@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Tracker"
+    tools:showIn="@layout/activity_tracker">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+
+            >
+            <View
+                android:layout_height="2dip"
+                android:background="@color/colorPrimaryDark" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTeal">
+
+                <TextView
+                    android:id="@+id/txtTraCourses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_courses"
+                    android:layout_span="2"
+
+                    android:textColor="@color/colorBlack"
+
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtTraPlanned"
+                    android:layout_width="wrap_content"
+
+
+                    android:text="@string/tra_planned" />
+
+                <TextView
+                    android:id="@+id/txtTraProgress"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tra_progress" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtTraCompleted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tra_completed" />
+
+                <TextView
+                    android:id="@+id/txtTraDropped"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tra_dropped" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="@color/colorPrimaryDark" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtTraCroDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+
+                    android:text="@string/tra_comprate" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/proCorComp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:minHeight="20dip" />
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/colorPrimaryDark" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@color/colorTeal">
+
+
+                <TextView
+                    android:id="@+id/txtTraUpTerms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tra_upterm"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="24sp"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList
+                    android:id="@+id/lstTraUpTerms"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="2">
+
+                </com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList>
+
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="@color/colorPrimaryDark" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTeal">
+
+                <TextView
+                    android:id="@+id/txtTraUpCor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tra_upcourses"
+                    android:textColor="@color/colorBlack"
+                    android:layout_span="2"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList
+                    android:id="@+id/lstTraUpCor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="2">
+
+                </com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList>
+
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="@color/colorPrimaryDark" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTeal">
+
+                <TextView
+                    android:id="@+id/txtTraUpAssess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tra_upassess"
+                    android:textColor="@color/colorBlack"
+                    android:layout_span="2"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList
+                    android:id="@+id/lstTraUpAssess"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="2">
+
+                </com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList>
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wgustudent.SamuelCrumplerC196MobileApp.MainActivity">
+
+    <item
+        android:id="@+id/actAddTerm"
+        android:orderInCategory="100"
+        android:title="@string/addterm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actAddCourse"
+        android:orderInCategory="100"
+        android:title="@string/addcourse"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actAddMentor"
+        android:orderInCategory="100"
+        android:title="@string/addmentor"
+        app:showAsAction="never" />
+</menu>

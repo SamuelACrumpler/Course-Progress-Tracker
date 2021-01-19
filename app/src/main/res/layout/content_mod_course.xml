@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ModCourse"
+    tools:showIn="@layout/activity_mod_course">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/txtCorTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:ems="10"
+                android:hint="@string/title"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/txtCorStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="true"
+                android:hint="@string/defStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtCorEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="true"
+                android:hint="@string/defEnd"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnCorStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/status_array" />
+
+            <Spinner
+                android:id="@+id/spnCorMentor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <CheckBox
+                        android:id="@+id/chkCorStart"
+                        android:layout_width="193dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/startalert" />
+
+                    <CheckBox
+                        android:id="@+id/chkCorEnd"
+                        android:layout_width="217dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/endalert" />
+                </TableRow>
+
+            </TableLayout>
+
+            <EditText
+                android:id="@+id/txtCorNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/notes"
+                android:inputType="textMultiLine" />
+
+            <com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList
+                android:id="@+id/lstMC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            </com.wgustudent.SamuelCrumplerC196MobileApp.classes.NoScrollList>
+
+            <Button
+                android:id="@+id/btnCorAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_addassess"
+                android:textCursorDrawable="@android:drawable/ic_menu_save" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
